@@ -1,0 +1,321 @@
+body  {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+.conteiner{
+  width: 100%;
+  max-width: 1173px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.menu {
+  margin-top: 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  
+}
+.name {
+  display: block;
+  font-size: 16px;
+  font-weight: 800;
+}
+.description {
+  margin-left: 9px;
+}
+.menu-logo {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+   cursor: pointer;
+  width: 57px;
+  height: 57px;
+  background: url('https://pp.userapi.com/c852128/v852128756/5786a/Yjte8MgpflY.jpg?ava=1');
+  background-size: 100%;
+  border-radius: 50%;
+}
+.menu-list {
+  display: flex;
+  align-items: center;
+}
+.menu-list a {
+  text-decoration: none;
+  color: #2b2a2c;
+  text-transform: uppercase;
+  font-weight: 800;
+  margin-right: 34px;
+}
+.menu-button {
+  cursor: pointer;
+  text-transform: uppercase;
+  border: 2px solid #2b2a2c;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 50px;
+  background-color: transparent;
+  padding: 13px 22px;
+   transition: 3s;
+}
+.menu-button:hover {
+  background-color: #2b2a2c;
+  color: white;
+   border: 2px solid #2b2a2c;
+   transition: 3s;
+}
+.menu-header {
+    display: inline-block;
+    color: #2b2a2c;
+    line-height: 1;
+    text-decoration:none;
+    cursor: pointer;
+    position:relative;
+}
+.menu-header:after {
+    background-color:  #2b2a2c;
+    display: block;
+    content: "";
+    height: 2px;
+    width: 0%;
+    left:50%;
+    position:absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    transform:translateX(-50%);
+  transition: 1s;
+}
+.menu-header:hover:after,
+.menu-header:focus:after {
+    width: 100%;
+}
+.hero{
+  padding-top: 112px;
+  padding-bottom: 112px;
+  background: url("https://wmpics.pics/di-TXTGB09B.png") no-repeat right bottom;
+}
+.hero-subtitle {
+  font-size: 32px;
+}
+.hero-title {
+  font-size: 45px;
+  font-weight: 800;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.hero-description {
+  font-size: 18px;
+  color: #6a696b;
+}
+.hero-social {
+  margin-top:30px;
+}
+.social {
+  display: inline-block;
+  width: 41px;
+  height: 41px;
+  margin-right: 12px;
+  color: #fff;
+  text-align: center;
+  line-height: 41px;
+}
+.behance-bg {
+  background-color: #1869ff;
+}
+.facebook-bg {
+  background-color: #3a5898;
+}
+.instagram-bg {
+  background-color: #13578a;
+}
+.vk-bg {
+  background-color: #56acef;
+}
+.hero-buttons {
+  margin-top: 40px;
+}
+.button {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 800;
+  text-decoration:none;
+  border-radius: 50px;
+  background-color: #2b2a2c;
+  padding: 20px 34px;
+}
+.button-primary {
+  color: #fff;
+  transition: 3s;
+  box-shadow: 5px 4px 10px #2b2a2c;
+}
+.button-primary:hover {
+  color: #2b2a2c;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  transition: 3s;
+  box-shadow: 5px 4px 10px #ffff;
+}
+.button-o {
+  color: #6a696b;
+  background-color: transparent;
+  border: 1px solid #6a696b;
+  transition: 3s;
+  margin-left: 17px;
+}
+.button-o:hover {
+  color: white;
+  background-color: #6a696b;
+  border: 1px solid #6a696b;
+  transition: 3s;
+}
+.project {
+  padding: 97px 0;
+ }
+.project-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nrap;
+}
+.project-card {
+  min-height: 370px;
+  width: 370px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.25);
+  margin-bottom: 50px;
+ 
+}
+.project-card-image {
+  height: 300px;
+}
+.lendig-image {
+  background: url('http://depsite.ru/site/data/images/medium/xvr4.jpg') center no-repeat;
+ background-size: cover;
+}
+.lendig-image1 {
+  background: url('https://www.imedia.by/upload/iblock/e6d/1.png') center no-repeat;
+ background-size: cover;
+}
+.lendig-image2 {
+  background: url('https://richpro.ru/wp-content/uploads/2016/03/lending-pejdzh.jpg') center no-repeat;
+ background-size: cover;
+}
+.lendig-image3 {
+  background: url('https://www.kom-dir.ru/download/file/254') center no-repeat;
+ background-size: cover;
+}
+.lendig-image4 {
+  background: url('https://i.ytimg.com/vi/W-Uf6nl4W_Y/maxresdefault.jpg') center no-repeat;
+ background-size: cover;
+}
+.lendig-image5 {
+  background: url('https://web112.biz/userfiles/images/news/struktura-landing-page/free-landing-page.png') center no-repeat;
+ background-size: cover;
+}
+.lendig-image6 {
+  background: url('https://digitalnews.ru/sites/default/files/images/3_2.png') center no-repeat;
+ background-size: cover;
+}
+.lendig-image7 {
+  background: url('http://adventum.ru/blog/wp-content/uploads/2015/04/landing-page-ideas-unbounce-one-click-sign-up.png') center no-repeat;
+ background-size: cover;
+}
+.lendig-image8 {
+  background: url('https://1ps.ru/files/blog/2016/landing_21_6.jpg') center no-repeat;
+ background-size: cover;
+}
+.project-card_info {
+  padding: 19px 13px;
+}
+.proect-category {
+  display: block;
+  color: #2b2a2c;
+  font-size: 12px;
+}
+.project-title {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.abount_me {
+  display: flex;
+   justify-content: space-around;
+  padding-bottom: 112px;
+}
+.abount_me-hero-description {
+  font-size: 12px;
+  color: #6a696b;
+}
+.about_me-text {
+ max-width: 550px;
+}
+footer {
+  height: 62px;
+  background-color: #2b2a2c;
+}
+.footer-coteiner {
+  display: flex;
+  align-items: center;
+}
+.fototer-year{
+  padding: 20px;
+  align-items: center;
+}
+.footer-text-year {
+  font-size: 14px;
+  color: #8d8d8e;
+}
+.footer-line {
+  width: 1px;
+  height: 21px;
+  background-color: #413f41;
+  margin-right: 14px;
+}
+footer .social {
+  display: inline-block;
+    width: 20px;
+    height: 41px;
+    margin-right: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+  color: #8d8d8e;
+  font-size: 20px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-menu {
+  display: flex;
+  align-items: center;
+}
+.menu-footer {
+  color: #8d8d8e;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 27px;
+}
+.button-footer {
+  cursor: pointer;
+  border: 1px solid #8d8d8e;
+  border-radius: 16px;
+  background-color: #2b2a2c;
+  color: #8d8d8e;
+  padding: 11px 23px;
+}
+@media (max-width: 1200px) {
+  .conteiner {
+    width: 965px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+
