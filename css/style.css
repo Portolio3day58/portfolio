@@ -280,12 +280,11 @@ footer {
 }
 footer .social {
   display: inline-block;
-    width: 20px;
-    height: 41px;
-    margin-right: 10px;
-    color: #fff;
-    text-align: center;
-    line-height: 44px;
+  width: 20px;
+  height: 41px;
+  margin-right: 10px;
+  text-align: center;
+  line-height: 44px;
   color: #8d8d8e;
   font-size: 20px;
 }
@@ -346,7 +345,7 @@ footer .social:hover {
 }
 @media (max-width: 765px) {
   .menu-footer {
-    margin-right: 9px;
+    margin-right: 5px;
   }
   footer .social {
     margin-right: 0px;
@@ -358,8 +357,14 @@ footer .social:hover {
     display: inherit;
   }
   .menu-list {
-    display: none;
+   /* display: none;*/
+    font-size: 12px;
+    margin-right: 5px;
+    
   }
+  .menu-list a {
+    margin-right: 10px;
+}
   .hero {
     padding-bottom: 550px;
   }
@@ -372,7 +377,7 @@ footer .social:hover {
   }
 }
 @media (max-width: 689px) {
-  .footer-menu {
+  .button-footer {
     display: none;
   }
   footer .social {
@@ -385,7 +390,7 @@ footer .social:hover {
     display: inherit;
   }
   .menu-list {
-    display: none;
+    /*display: none;*/
   }
   .hero {
     padding-bottom: 550px;
@@ -398,3 +403,29 @@ footer .social:hover {
     margim: 30px auto;
   }
 }
+@media (max-width: 640px) {
+  .footer-menu {
+    display: none;
+  }
+  .menu {
+    margin-top: 18px;
+    display: inherit;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 440px) {  
+  .menu-list {
+    display: inherit;
+    align-items: center;
+    margin-top: 50px;
+}
+  .menu-button {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .hero-title {
+    font-size: 35px;
+  }
+  .hero-subtitle {
+    font-size: 22px;
+  }
