@@ -289,6 +289,9 @@ footer .social {
   color: #8d8d8e;
   font-size: 20px;
 }
+footer .social:hover {
+  color: #fff;
+}
 .footer {
   display: flex;
   justify-content: space-between;
@@ -304,6 +307,9 @@ footer .social {
   font-size: 14px;
   margin-right: 27px;
 }
+.menu-footer:hover {
+  color: #fff;
+}
 .button-footer {
   cursor: pointer;
   border: 1px solid #8d8d8e;
@@ -311,6 +317,10 @@ footer .social {
   background-color: #2b2a2c;
   color: #8d8d8e;
   padding: 11px 23px;
+}
+.button-footer:hover {
+  color: #fff;
+  border: 1px solid #fff;
 }
 @media (max-width: 1200px) {
   .conteiner {
