@@ -149,6 +149,8 @@ body  {
   color: #fff;
   transition: 3s;
   box-shadow: 5px 4px 10px #2b2a2c;
+   margin-right: 18px;
+  margin-bottom: 10px;
 }
 .button-primary:hover {
   color: #2b2a2c;
@@ -162,7 +164,7 @@ body  {
   background-color: transparent;
   border: 1px solid #6a696b;
   transition: 3s;
-  margin-left: 17px;
+  
 }
 .button-o:hover {
   color: white;
@@ -176,7 +178,7 @@ body  {
 .project-cards {
   display: flex;
   justify-content: space-between;
-  flex-wrap: nrap;
+  flex-wrap: wrap;
 }
 .project-card {
   min-height: 370px;
@@ -318,4 +320,71 @@ footer .social {
     width: 48%;
   }
 }
-
+@media (max-width: 992px) {
+  .footer-text-year {
+  font-size: 10px;
+  }
+  .about_me-text {
+     margin-left: 30px;
+  }
+  .conteiner {
+    width: 760px;
+  }
+  .project-card {
+    width: 48%;
+  }
+}
+@media (max-width: 765px) {
+  .menu-footer {
+    margin-right: 9px;
+  }
+  footer .social {
+    margin-right: 0px;
+  }
+  .about_me-text {
+     margin-left: 30px;
+  }  
+  .abount_me {
+    display: inherit;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 550px;
+  }
+  .conteiner {
+    width: 95%;
+  }
+  .project-card {
+    width: 95%;
+    margim: 30px auto;
+  }
+}
+@media (max-width: 689px) {
+  .footer-menu {
+    display: none;
+  }
+  footer .social {
+    margin-right: 0px;
+  }
+  .about_me-text {
+     margin-left: 30px;
+  }  
+  .abount_me {
+    display: inherit;
+  }
+  .menu-list {
+    display: none;
+  }
+  .hero {
+    padding-bottom: 550px;
+  }
+  .conteiner {
+    width: 95%;
+  }
+  .project-card {
+    width: 95%;
+    margim: 30px auto;
+  }
+}
